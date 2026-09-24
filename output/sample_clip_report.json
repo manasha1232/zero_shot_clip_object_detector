@@ -1,0 +1,86 @@
+{
+    "project": "Zero-Shot AI Object Detector & Tagging Engine using CLIP",
+    "day": 28,
+    "status": "SUCCESS",
+    "resolution": {
+        "width": 640,
+        "height": 480
+    },
+    "query_text_prompts": [
+        "vintage red mug",
+        "yellow sports ball",
+        "metallic wrench tool",
+        "green plant pot"
+    ],
+    "performance": {
+        "execution_duration_sec": 0.305,
+        "region_proposals_evaluated": 9,
+        "final_detections_count": 6
+    },
+    "detections": [
+        {
+            "label": "vintage red mug",
+            "confidence_score": 0.94,
+            "bounding_box": {
+                "x": 420,
+                "y": 260,
+                "width": 180,
+                "height": 180
+            }
+        },
+        {
+            "label": "vintage red mug",
+            "confidence_score": 0.94,
+            "bounding_box": {
+                "x": 420,
+                "y": 50,
+                "width": 180,
+                "height": 180
+            }
+        },
+        {
+            "label": "vintage red mug",
+            "confidence_score": 0.94,
+            "bounding_box": {
+                "x": 50,
+                "y": 50,
+                "width": 180,
+                "height": 180
+            }
+        },
+        {
+            "label": "yellow sports ball",
+            "confidence_score": 0.92,
+            "bounding_box": {
+                "x": 50,
+                "y": 270,
+                "width": 200,
+                "height": 160
+            }
+        },
+        {
+            "label": "yellow sports ball",
+            "confidence_score": 0.92,
+            "bounding_box": {
+                "x": 61,
+                "y": 326,
+                "width": 59,
+                "height": 59
+            }
+        },
+        {
+            "label": "green plant pot",
+            "confidence_score": 0.91,
+            "bounding_box": {
+                "x": 455,
+                "y": 270,
+                "width": 91,
+                "height": 58
+            }
+        }
+    ],
+    "output_files": {
+        "annotated_image": "output\\sample_clip_output.jpg",
+        "telemetry_report": "output\\sample_clip_report.json"
+    }
+}
