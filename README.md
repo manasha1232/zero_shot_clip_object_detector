@@ -1,0 +1,1 @@
+# zero_shot_clip_object_detector
